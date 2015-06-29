@@ -50,7 +50,7 @@
 #     end
 #   end
 # end
-#
+
 # ['apple', 'bad apple', 'cherry', 'durian'].eachEven do |fruit|
 #   puts 'Yum!  I just love '+fruit+' pies, don\'t you?'
 # end
@@ -80,3 +80,5 @@ puts 'DONG!'
 end
 
 clock dong_proc
+
+# New line
