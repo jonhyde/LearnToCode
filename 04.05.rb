@@ -23,7 +23,7 @@ def get_fav_number fullname, firstname
 	puts "#{firstname}, What's your favourite number?"
 	visual_space
 	fav_number = gets.chomp
-	new_fav_number = rand(100)
+	new_fav_number = rand(100) #this is the only difference to 04.04, just adds a random number
 	puts "I think your new favourite number should be #{new_fav_number}"
 end
 
