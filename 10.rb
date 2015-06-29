@@ -80,5 +80,3 @@ puts 'DONG!'
 end
 
 clock dong_proc
-
-# New line
