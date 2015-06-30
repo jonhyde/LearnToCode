@@ -6,20 +6,13 @@ class Test < Minitest::Test
     @test = Name_and_number.new
   end
 
-  def test_visual_space
-    assert_equal puts "-------------------", @test.visual_space
+
+  def test_set_titlecase
+    actual_result = @test.set_titlecase ("jon")
+    assert_equal "Jon", actual_result
   end
 
+  def test_get_fav_number
+    actual_result = @test.get_fav_number ("Jonathan Paul Hyde", "Jonathan")
 
-  # def test_that_kitty_can_eat
-  #   assert_equal "Jon", @test.set_titlecase ("jon")
-  # end
-
-  # def test_that_it_will_not_blend
-  #   refute_match /^no/i, @meme.will_it_blend?
-  # end
-  #
-  # def test_that_will_be_skipped
-  #   skip "test this later"
-  # end
 end
