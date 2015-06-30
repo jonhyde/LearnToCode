@@ -32,7 +32,7 @@ class Waiter
     self.orders = {}
 
     number_of_diners.times do |n|
-      puts "Hello, diner #{n}.  What is your name?"
+      puts "Hello, diner.  What is your name?"
       name = gets
 
       puts "Please to meet you. #{name}, what would you like for dinner?"
